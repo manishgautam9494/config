@@ -8,9 +8,9 @@ eureka:
 spring:
     datasource:
         driverClassName: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://dev-mysql.cfajuedmxdol.ap-southeast-2.rds.amazonaws.com/invopay?zeroDateTimeBehavior=convertToNull #jdbc:mysql://localhost:3306/invopay?zeroDateTimeBehavior=convertToNull
-        username: invopay
-        password: Hmil@2022
+        url: 
+        username: 
+        password: @2022
     jpa:
         properties:
             hibernate:
