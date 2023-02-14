@@ -1,0 +1,20 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
+
+spring:
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://dev-mysql.cfajuedmxdol.ap-southeast-2.rds.amazonaws.com/invopay?zeroDateTimeBehavior=convertToNull #jdbc:mysql://localhost:3306/invopay?zeroDateTimeBehavior=convertToNull
+        username: invopay
+        password: Hmil@2022
+    jpa:
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL8Dialect
+                hibernate:
+                    ddl-auto: update
+
