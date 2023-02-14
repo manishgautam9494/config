@@ -10,7 +10,7 @@ spring:
         driverClassName: com.mysql.cj.jdbc.Driver
         url: 
         username: 
-        password: @2022
+        password: 
     jpa:
         properties:
             hibernate:
